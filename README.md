@@ -22,18 +22,14 @@ rs.append(Relation("mammal", "cat"))
 
 rs.append(Relation("animal", "fish"))
   
-Expected output:
-
-lifeform
-
-  animal 
   
-    mammal
-    
-      cat
-      
-        lion
-        
-    bird
-    
-    fish
+  
+    Expected output:
+
+    lifeform
+      animal 
+        mammal
+          cat
+            lion  
+        bird
+        fish
