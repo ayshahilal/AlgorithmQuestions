@@ -25,9 +25,9 @@ rs.append(Relation("animal", "fish"))
 Expected output:
 
 lifeform
-	 animal
-		 mammal
-			 cat
-				 lion
-		 bird
-		 fish
+[/tab]animal 
+[/tab][/tab]mammal
+[/tab][/tab][/tab]cat
+[/tab][/tab][/tab][/tab]lion
+[/tab][/tab][/tab]bird
+[/tab][/tab][/tab]fish
