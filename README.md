@@ -11,10 +11,15 @@ Here are some example questions and codes that I have written.
 Example input: 
 
 rs.append(Relation("animal", "mammal"))
+
 rs.append(Relation("animal", "bird"))
+
 rs.append(Relation("lifeform", "animal"))
+
 rs.append(Relation("cat", "lion"))
+
 rs.append(Relation("mammal", "cat"))
+
 rs.append(Relation("animal", "fish"))
   
 Expected output:
