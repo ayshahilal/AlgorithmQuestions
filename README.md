@@ -23,8 +23,7 @@ rs.append(Relation("mammal", "cat"))
 rs.append(Relation("animal", "fish"))
   
   
-  
-    Expected output:
+Expected output:
 
     lifeform
       animal 
