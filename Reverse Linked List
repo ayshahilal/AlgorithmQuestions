@@ -15,7 +15,7 @@ def reverseLinkedList(head):
     current = head
     previous = None
     
-     while(current):   
+    while(current):   
         next_node = current.next    
         current.next = previous   
         previous = current
