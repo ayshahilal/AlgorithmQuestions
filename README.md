@@ -1,7 +1,8 @@
 Here are some example questions and codes that I have written. 
+
 # TreePrinter: 
 
-  https://github.com/ayshahilal/AlgorithmQuestions/blob/main/AddTwoNumbers.py
+  https://github.com/ayshahilal/AlgorithmQuestions/blob/main/TreePrinter.py
   
   Write a function, printTree(), which prints a given tree. 
   Details:
@@ -37,6 +38,7 @@ Expected output:
         fish
    
 # Replace Words
+https://github.com/ayshahilal/AlgorithmQuestions/blob/main/replaceWords.py
 
 In English, we have a concept called root, which can be followed by some other word to form another longer word - let's call this word successor. For example, when the root "an" is followed by the successor word "other", we can form a new word "another".
 
@@ -51,7 +53,9 @@ Example 1:
         
         
 # Add Two Numbers
- 
+
+https://github.com/ayshahilal/AlgorithmQuestions/blob/main/AddTwoNumbers.py
+
 Question: You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order, and each of their nodes contains a single digit. Add the two numbers and return the sum as a linked list.
 You may assume the two numbers do not contain any leading zero, except the number 0 itself.
 
@@ -74,6 +78,8 @@ Constraints:
 
 # Two Sum
 
+https://github.com/ayshahilal/AlgorithmQuestions/blob/main/TwoSum.py
+
 Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 You may assume that each input would have exactly one solution, and you may not use the same element twice.
 You can return the answer in any order.
@@ -86,6 +92,8 @@ Example:
 
 
 # Flood Fill
+
+https://github.com/ayshahilal/AlgorithmQuestions/blob/main/FloodFill.py
 
 An image is represented by an m x n integer grid image where image[i][j] represents the pixel value of the image.
 
@@ -102,16 +110,18 @@ Example 1:
 Explanation: From the center of the image with position (sr, sc) = (1, 1) (i.e., the red pixel), all pixels connected by a path of the same color as the      starting pixel (i.e., the blue pixels) are colored with the new color.
 Note the bottom corner is not colored 2, because it is not 4-directionally connected to the starting pixel.
 
-
 # Inverse Binary Tree
+
+https://github.com/ayshahilal/AlgorithmQuestions/blob/main/InverseBinaryTree.py
 
 Given the root of a binary tree, invert the tree, and return its root.
 
     Input: root = [4,2,7,1,3,6,9]
     Output: [4,7,2,9,6,3,1]
 
-
 # Same Tree
+
+https://github.com/ayshahilal/AlgorithmQuestions/blob/main/isSameTree.py
 
 Given the roots of two binary trees p and q, write a function to check if they are the same or not.
 Two binary trees are considered the same if they are structurally identical, and the nodes have the same value.
@@ -124,7 +134,9 @@ Example:
 
 # Valid Parantheses
 
-Question link: https://leetcode.com/problems/valid-parentheses/
+Question: https://leetcode.com/problems/valid-parentheses/
+
+Solution: https://github.com/ayshahilal/AlgorithmQuestions/blob/main/ValidParantheses.py
 
 Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
 
@@ -147,8 +159,9 @@ Example 3:
     Input: s = "([]"
     Output: false 
 
-
 # Remove Islands 
+
+https://github.com/ayshahilal/AlgorithmQuestions/blob/main/RemoveIslands.py
 
 Remove the 1's in the matrix that is not connected horizontally or vertically connected to an edge that is 1 in the matrix. 
 The connected 1's are not islands. The others are islands. So the problem is removing the islands. 
@@ -176,4 +189,4 @@ Sample output :
              
              
              
-   
+  
