@@ -143,3 +143,34 @@ Example 3:
     
     Input: s = "([]"
     Output: false 
+
+
+# Remove Islands 
+
+Remove the 1's in the matrix that is not connected horizontally or vertically connected to an edge that is 1 in the matrix. 
+The connected 1's are not islands. The others are islands. So the problem is removing the islands. 
+
+Sample input : 
+      
+      matrix = [[1,0,0,0,0,0],
+              [0,1,0,1,1,1],
+              [0,0,1,0,1,0],
+              [1,1,0,0,1,0],
+              [1,0,1,1,0,0],
+              [1,0,0,0,0,1],
+              ]
+
+Sample output : 
+
+             [
+             [1,0,0,0,0,0], 
+             [0,0,0,1,1,1], 
+             [0,0,0,0,1,0], 
+             [1,1,0,0,1,0], 
+             [1,0,0,0,0,0], 
+             [1,0,0,0,0,1]
+             ]
+             
+             
+             
+   
